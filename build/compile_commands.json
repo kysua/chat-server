@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/mika/Documents/samp/Cluster-Chat-Server/build/src/server",
+  "command": "/usr/bin/g++  -I/home/mika/Documents/samp/Cluster-Chat-Server/include -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/db -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/model -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/redis -I/home/mika/Documents/samp/Cluster-Chat-Server/thidrparty -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/mika/Documents/samp/Cluster-Chat-Server/src/server/chatserver.cpp",
+  "file": "/home/mika/Documents/samp/Cluster-Chat-Server/src/server/chatserver.cpp"
+},
+{
+  "directory": "/home/mika/Documents/samp/Cluster-Chat-Server/build/src/server",
+  "command": "/usr/bin/g++  -I/home/mika/Documents/samp/Cluster-Chat-Server/include -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/db -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/model -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/redis -I/home/mika/Documents/samp/Cluster-Chat-Server/thidrparty -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/mika/Documents/samp/Cluster-Chat-Server/src/server/chatservice.cpp",
+  "file": "/home/mika/Documents/samp/Cluster-Chat-Server/src/server/chatservice.cpp"
+},
+{
+  "directory": "/home/mika/Documents/samp/Cluster-Chat-Server/build/src/server",
+  "command": "/usr/bin/g++  -I/home/mika/Documents/samp/Cluster-Chat-Server/include -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/db -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/model -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/redis -I/home/mika/Documents/samp/Cluster-Chat-Server/thidrparty -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/mika/Documents/samp/Cluster-Chat-Server/src/server/main.cpp",
+  "file": "/home/mika/Documents/samp/Cluster-Chat-Server/src/server/main.cpp"
+},
+{
+  "directory": "/home/mika/Documents/samp/Cluster-Chat-Server/build/src/server",
+  "command": "/usr/bin/g++  -I/home/mika/Documents/samp/Cluster-Chat-Server/include -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/db -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/model -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/redis -I/home/mika/Documents/samp/Cluster-Chat-Server/thidrparty -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/db/connectPool.cpp.o -c /home/mika/Documents/samp/Cluster-Chat-Server/src/server/db/connectPool.cpp",
+  "file": "/home/mika/Documents/samp/Cluster-Chat-Server/src/server/db/connectPool.cpp"
+},
+{
+  "directory": "/home/mika/Documents/samp/Cluster-Chat-Server/build/src/server",
+  "command": "/usr/bin/g++  -I/home/mika/Documents/samp/Cluster-Chat-Server/include -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/db -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/model -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/redis -I/home/mika/Documents/samp/Cluster-Chat-Server/thidrparty -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /home/mika/Documents/samp/Cluster-Chat-Server/src/server/db/db.cpp",
+  "file": "/home/mika/Documents/samp/Cluster-Chat-Server/src/server/db/db.cpp"
+},
+{
+  "directory": "/home/mika/Documents/samp/Cluster-Chat-Server/build/src/server",
+  "command": "/usr/bin/g++  -I/home/mika/Documents/samp/Cluster-Chat-Server/include -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/db -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/model -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/redis -I/home/mika/Documents/samp/Cluster-Chat-Server/thidrparty -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o -c /home/mika/Documents/samp/Cluster-Chat-Server/src/server/model/friendmodel.cpp",
+  "file": "/home/mika/Documents/samp/Cluster-Chat-Server/src/server/model/friendmodel.cpp"
+},
+{
+  "directory": "/home/mika/Documents/samp/Cluster-Chat-Server/build/src/server",
+  "command": "/usr/bin/g++  -I/home/mika/Documents/samp/Cluster-Chat-Server/include -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/db -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/model -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/redis -I/home/mika/Documents/samp/Cluster-Chat-Server/thidrparty -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o -c /home/mika/Documents/samp/Cluster-Chat-Server/src/server/model/groupmodel.cpp",
+  "file": "/home/mika/Documents/samp/Cluster-Chat-Server/src/server/model/groupmodel.cpp"
+},
+{
+  "directory": "/home/mika/Documents/samp/Cluster-Chat-Server/build/src/server",
+  "command": "/usr/bin/g++  -I/home/mika/Documents/samp/Cluster-Chat-Server/include -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/db -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/model -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/redis -I/home/mika/Documents/samp/Cluster-Chat-Server/thidrparty -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o -c /home/mika/Documents/samp/Cluster-Chat-Server/src/server/model/offlinemessagemodel.cpp",
+  "file": "/home/mika/Documents/samp/Cluster-Chat-Server/src/server/model/offlinemessagemodel.cpp"
+},
+{
+  "directory": "/home/mika/Documents/samp/Cluster-Chat-Server/build/src/server",
+  "command": "/usr/bin/g++  -I/home/mika/Documents/samp/Cluster-Chat-Server/include -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/db -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/model -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/redis -I/home/mika/Documents/samp/Cluster-Chat-Server/thidrparty -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/model/usermodel.cpp.o -c /home/mika/Documents/samp/Cluster-Chat-Server/src/server/model/usermodel.cpp",
+  "file": "/home/mika/Documents/samp/Cluster-Chat-Server/src/server/model/usermodel.cpp"
+},
+{
+  "directory": "/home/mika/Documents/samp/Cluster-Chat-Server/build/src/server",
+  "command": "/usr/bin/g++  -I/home/mika/Documents/samp/Cluster-Chat-Server/include -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/db -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/model -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/redis -I/home/mika/Documents/samp/Cluster-Chat-Server/thidrparty -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/redis/redisPub.cpp.o -c /home/mika/Documents/samp/Cluster-Chat-Server/src/server/redis/redisPub.cpp",
+  "file": "/home/mika/Documents/samp/Cluster-Chat-Server/src/server/redis/redisPub.cpp"
+},
+{
+  "directory": "/home/mika/Documents/samp/Cluster-Chat-Server/build/src/server",
+  "command": "/usr/bin/g++  -I/home/mika/Documents/samp/Cluster-Chat-Server/include -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/db -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/model -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/redis -I/home/mika/Documents/samp/Cluster-Chat-Server/thidrparty -g -g -std=gnu++17 -o CMakeFiles/ChatServer.dir/redis/redisStateStore.cpp.o -c /home/mika/Documents/samp/Cluster-Chat-Server/src/server/redis/redisStateStore.cpp",
+  "file": "/home/mika/Documents/samp/Cluster-Chat-Server/src/server/redis/redisStateStore.cpp"
+},
+{
+  "directory": "/home/mika/Documents/samp/Cluster-Chat-Server/build/src/client",
+  "command": "/usr/bin/g++  -I/home/mika/Documents/samp/Cluster-Chat-Server/include -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/db -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/model -I/home/mika/Documents/samp/Cluster-Chat-Server/include/server/redis -I/home/mika/Documents/samp/Cluster-Chat-Server/thidrparty -g -g -std=gnu++17 -o CMakeFiles/ChatClient.dir/main.cpp.o -c /home/mika/Documents/samp/Cluster-Chat-Server/src/client/main.cpp",
+  "file": "/home/mika/Documents/samp/Cluster-Chat-Server/src/client/main.cpp"
+}
+]

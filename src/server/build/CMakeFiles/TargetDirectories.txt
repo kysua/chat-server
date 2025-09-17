@@ -1,0 +1,3 @@
+/home/mika/Documents/samp/Cluster-Chat-Server/src/server/build/CMakeFiles/rebuild_cache.dir
+/home/mika/Documents/samp/Cluster-Chat-Server/src/server/build/CMakeFiles/edit_cache.dir
+/home/mika/Documents/samp/Cluster-Chat-Server/src/server/build/CMakeFiles/ChatServer.dir
