@@ -36,8 +36,8 @@ ThreadPool* ChatService::getThreadPool()
 void ChatService::init(const std::string& server_id) {
     my_server_id = server_id;
 
-    unsigned int thread_num = std::thread::hardware_concurrency();
-    _threadPool = std::make_unique<ThreadPool>(thread_num);
+    unsigned int thread_num = std::thread::hardware_concurrency()*2;
+    _threadPool = std::make_unique<ThreadPool>(thread_num，18000);
 
      // ================== 新增：初始化 RedisStateStorage ==================
     // 注意：请将这里的IP、端口和连接池大小替换为您的实际配置
