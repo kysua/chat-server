@@ -80,10 +80,29 @@ void ChatServer::onMessage(const TcpConnectionPtr &conn,
     {
         // ******************* 核心修改 *******************
         // 使用 mutable 关键字，使得按值捕获的变量可以在 lambda 内部被修改
-        pool->enqueue([=]() mutable {
-            // 现在，在这个 lambda 的作用域内，js 是一个可修改的拷贝
+        bool success = pool->enqueue([=]() {
+            // 这个lambda捕获了所有需要的上下文，并将在工作线程中执行
+            // 注意：这里没有使用 mutable，因为 js 和 conn 都是拷贝/智能指针拷贝，
+            // 在lambda内部不需要修改它们自身。
             msgHandler(conn, js, time);
         });
+
+        // 关键：处理任务提交失败的情况
+        if (!success)
+        {
+            // 线程池队列已满，服务器繁忙
+            LOG_WARN << "ThreadPool is full, task rejected for user on connection " << conn->name();
+            
+            // 向客户端发送服务不可用响应
+            json response;
+            response["msgid"] = -1; // 使用一个特殊的msgid表示错误
+            response["errno"] = 503; // 类似HTTP 503 Service Unavailable
+            response["errmsg"] = "Server is busy, please try again later.";
+            conn->send(response.dump());
+            
+            // 可以选择不关闭连接，让客户端稍后重试
+            // conn->shutdown(); 
+        }
         // ***********************************************
     }
     else
